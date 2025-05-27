@@ -1,0 +1,58 @@
+# Uygulama Arayüzü
+streamlit==1.45.1
+python-dotenv==1.1.0
+
+# LLM & RAG
+langchain-core==0.3.61
+langchain-community==0.3.23
+langchain-huggingface==0.2.0
+langchain-google-genai==2.1.0  # Gemini entegrasyonu
+faiss-cpu==1.11.0
+pypdf==5.4.0
+pdfminer.six==20240706
+sentence-transformers==3.4.1
+
+# Google Gemini API bağımlılıkları
+google-genai==1.14.0
+google-api-core==2.24.2
+google-auth==2.40.1
+google-api-python-client==2.164.0
+google-cloud-aiplatform==1.92.0
+google-cloud-storage==2.19.0
+
+# Sunucu tarafı & API
+fastapi==0.115.9
+uvicorn==0.34.2
+httptools==0.6.4
+
+# Veri işleme
+pandas==2.2.3
+numpy==2.2.4
+scikit-learn==1.6.1
+scipy==1.15.2
+
+# Geliştirici araçları
+tqdm==4.67.1
+requests==2.32.3
+python-docx==1.1.2
+aiohttp==3.11.18
+aiofiles==24.1.0
+httpx==0.28.1
+
+# Metin analiz
+nltk==3.9.1
+langdetect==1.0.9
+
+# YAML ve JSON yönetimi
+PyYAML==6.0.2
+jsonschema==4.23.0
+
+# Görselleştirme
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# Gereken diğer temel kütüphaneler
+protobuf==5.29.3
+pydantic==2.11.4
+pydantic-settings==2.9.1
+openai==1.78.0  # Alternatif model kullanımı için opsiyonel
